@@ -1,0 +1,274 @@
+.register {
+  background: #fff;
+  margin: 40px auto;
+  padding: 60px 20px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.register form input,
+.register form select,
+.register form button {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.register form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.register form button:hover {
+  background: #0056b3;
+}
+
+.alt-contact {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+body {
+  margin: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  direction: rtl;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  position: relative;
+  background: url('bg.jpg') no-repeat center/cover;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+  z-index: 999;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+  padding: 100px 20px;
+}
+
+.hero-logo-bg {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  opacity: 0.05;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-family: 'Lalezar', cursive;
+  font-size: 4rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 40px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #0056b3;
+}
+
+.services, .courses, .team, .contact {
+  background: #fff;
+  margin: 40px auto;
+  padding: 60px 20px;
+  max-width: 1000px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.service-boxes, .course-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service, .course {
+  flex: 1 1 250px;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: right;
+}
+
+.service ul {
+  padding-right: 20px;
+}
+
+.service li {
+  margin: 5px 0;
+  list-style: disc inside;
+}
+
+.course h3 {
+  margin-top: 0;
+}
+
+.course p {
+  margin: 10px 0;
+}
+
+.course .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.course .btn:hover {
+  background: #0056b3;
+}
+
+.team-members {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member h3 {
+  margin: 15px 0 5px;
+}
+
+.contact-info {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background: #007bff;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer i {
+  margin: 0 5px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px; left: 20px;
+  background: #25D366;
+  color: #fff;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50%;
+  z-index: 999;
+  text-align: center;
+}
+
+.whatsapp-float:hover {
+  background: #1ebe5b;
+}

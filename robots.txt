@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hanora-exim.github.io/hanora-exim/sitemap.xml
